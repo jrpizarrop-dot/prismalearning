@@ -279,19 +279,19 @@ function Home() {
             Agende un diagnóstico institucional para identificar brechas en su estrategia B-Learning, modelo LMS corporativo o integración con inteligencia artificial.
           </p>
           
-          <form className="max-w-xl mx-auto bg-bg-subtle p-8 rounded-xl border border-slate-100 shadow-xl" onSubmit={(e) => e.preventDefault()}>
+          <form className="max-w-xl mx-auto bg-bg-subtle p-8 rounded-xl border border-slate-100 shadow-xl" action="https://formspree.io/f/xaqvrqop" method="POST">
             <div className="space-y-4 text-left">
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-1">Nombre Completo</label>
-                <input type="text" className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-colors" placeholder="Ej. Carlos Mendoza" />
+                <input type="text" name="nombre" required className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-colors" placeholder="Ej. Carlos Mendoza" />
               </div>
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-1">Institución / Empresa</label>
-                <input type="text" className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-colors" placeholder="Nombre de la universidad o corporación" />
+                <input type="text" name="institucion" required className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-colors" placeholder="Nombre de la universidad o corporación" />
               </div>
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-1">Correo Electrónico Laboral</label>
-                <input type="email" className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-colors" placeholder="carlos@institucion.cl" />
+                <input type="email" name="email" required className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-colors" placeholder="carlos@institucion.cl" />
               </div>
               <button type="submit" className="w-full bg-primary-900 text-white font-medium py-4 rounded-sm mt-6 hover:bg-primary-800 transition-colors shadow-lg">
                 Solicitar Diagnóstico Estratégico
