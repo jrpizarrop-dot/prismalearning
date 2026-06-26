@@ -1,0 +1,8 @@
+{
+  "name": "Prisma Learning Landing Page",
+  "description": "Landing page for Prisma Learning, a B2B educational consulting firm in Chile.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
