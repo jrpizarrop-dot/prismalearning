@@ -1,0 +1,4 @@
+Sube aquí tus archivos públicos como logos (en formato PNG/SVG) y videos (en formato MP4).
+Por ejemplo:
+- Sube tu video introductorio con el nombre 'introduccion.mp4' para que se reproduzca en la web.
+- Sube tus logos en esta carpeta y actualiza los nombres en la sección de marcas.
